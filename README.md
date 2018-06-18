@@ -20,27 +20,29 @@
 ## Project parts
 
 - Data importer (gitIssueParser)
-  - Read Symfony issue list from github (DONE)
-  - Import Issues and Comments to mysql (DONE)
-- Front End Angular (tn-app) (DONE)
-  - Login  (DONE)
-  - Issues (DONE)
-  - Isue (DONE)
-  - JWT Login (In progress)
+  - Database structure **(DONE)**
+  - Read Symfony issue list from github **(DONE)**
+  - Import Issues and Comments to mysql **(DONE)**
+- Front End Angular (tn-app) 
+  - Login  **(DONE)**
+  - Issues **(DONE)**
+  - Issue **(DONE)**
+  - Connect with Github *(In progress)*
+  - JWT Login *(In progress)*
 - Web Services
   - Node.js
-    - JWT Auth (DONE) 
-    - Login (DONE)
-    - Get Issues (DONE)
+    - JWT Auth **(DONE)**
+    - Login **(DONE)**
+    - Get Issues **(DONE)**
   - Java (Spring)
-    - JWT Auth (DONE) 
-    - Login (DONE)
-    - Get Issues (In progress)
+    - JWT Auth **(DONE)** 
+    - Login **(DONE)**
+    - Get Issues *(In progress)*
   - Python (Flask)
-    - JWT Auth (DONE) 
-    - Login (DONE)
-    - Get Issues (In progress)
-  - PHP (Symfony) (In progress)
+    - JWT Auth **(DONE)** 
+    - Login **(DONE)**
+    - Get Issues *(In progress)*
+  - PHP (Symfony) *(In progress)*
 - Performance tests
-  - Auth (In progress)
-  - Get Issues (In progress)
+  - Auth *(In progress)*
+  - Get Issues *(In progress)*
