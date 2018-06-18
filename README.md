@@ -40,11 +40,17 @@
     - [x] JWT Auth **(DONE)** 
     - [x] Login **(DONE)**
     - [ ] Get Issues *(In progress)*
+    - [ ] Get Comments *(In progress)*
   - Python (`Flask`)
     - [x] JWT Auth **(DONE)** 
     - [x] Login **(DONE)**
     - [ ] Get Issues *(In progress)*
+    - [ ] Get Comments *(In progress)*
   - PHP (`Symfony`) *(In progress)*
+    - [ ] JWT Auth *(In progress)* 
+    - [ ] Login *(In progress)*
+    - [ ] Get Issues *(In progress)*
+    - [ ] Get Comments *(In progress)*
 - Performance tests
   - [ ] Auth *(In progress)*
   - [ ] Get Issues *(In progress)*
