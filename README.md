@@ -1,15 +1,3 @@
-# Great task for Great Fullstack Developer
-
-If you found this task it means we are looking for you!
-
-> Note: To clone this repository you will need [GIT-LFS](https://git-lfs.github.com/)
-
-## Few simple steps
-
-1. Fork this repo
-2. Do your best
-3. Prepare pull request and let us know that you are done
-
 ## Few simple requirements
 
 - Design should be recreated as closely as possible.
@@ -27,3 +15,10 @@ If you found this task it means we are looking for you!
 - Structure! WE LOVE STRUCTURE!
 - Maybe You have an idea how it should interact with users? Do it! Its on you!
 - Have fun!
+
+
+## Project parts
+
+- Data importer (gitIssueParser)
+  - Read Symfony issue list from github
+  - Import Issues and Comments to mysql
