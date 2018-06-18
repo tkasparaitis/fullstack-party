@@ -19,30 +19,32 @@
 
 ## Project parts
 
-- Data importer (gitIssueParser)
-  - Database structure **(DONE)**
-  - Read Symfony issue list from github **(DONE)**
-  - Import Issues and Comments to mysql **(DONE)**
-- Front End Angular (tn-app) 
-  - Login  **(DONE)**
-  - Issues **(DONE)**
-  - Issue **(DONE)**
-  - Connect with Github *(In progress)*
-  - JWT Login *(In progress)*
+- Data importer (`gitIssueParser`)
+  - [x]Database structure **(DONE)**
+  - [x]Read Symfony issue list from github **(DONE)**
+  - [x]Import Issues and Comments to mysql **(DONE)**
+- Front End Angular (`tn-app`) 
+  - [x]Login  **(DONE)**
+  - [x]Issues **(DONE)**
+  - [x]Issue **(DONE)**
+  - [x]Comments **(DONE)**
+  - [ ]Connect with Github *(In progress)*
+  - [ ]JWT Login *(In progress)*
 - Web Services
-  - Node.js
-    - JWT Auth **(DONE)**
-    - Login **(DONE)**
-    - Get Issues **(DONE)**
-  - Java (Spring)
-    - JWT Auth **(DONE)** 
-    - Login **(DONE)**
-    - Get Issues *(In progress)*
-  - Python (Flask)
-    - JWT Auth **(DONE)** 
-    - Login **(DONE)**
-    - Get Issues *(In progress)*
-  - PHP (Symfony) *(In progress)*
+  - Node.js (`express`)
+    - [x] JWT Auth **(DONE)**
+    - [x] Login **(DONE)**
+    - [x] Get Issues **(DONE)**
+    - [x] Get Comments **(DONE)**
+  - Java (`Spring`)
+    - [x] JWT Auth **(DONE)** 
+    - [x] Login **(DONE)**
+    - [ ] Get Issues *(In progress)*
+  - Python (`Flask`)
+    - [x] JWT Auth **(DONE)** 
+    - [x] Login **(DONE)**
+    - [ ] Get Issues *(In progress)*
+  - PHP (`Symfony`) *(In progress)*
 - Performance tests
-  - Auth *(In progress)*
-  - Get Issues *(In progress)*
+  - [ ] Auth *(In progress)*
+  - [ ] Get Issues *(In progress)*
