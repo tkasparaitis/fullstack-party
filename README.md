@@ -22,3 +22,4 @@
 - Data importer (gitIssueParser)
   - Read Symfony issue list from github
   - Import Issues and Comments to mysql
+- Front End Angular (tn-app)
