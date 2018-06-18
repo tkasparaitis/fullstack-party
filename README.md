@@ -20,16 +20,16 @@
 ## Project parts
 
 - Data importer (`gitIssueParser`)
-  - [x]Database structure **(DONE)**
-  - [x]Read Symfony issue list from github **(DONE)**
-  - [x]Import Issues and Comments to mysql **(DONE)**
+  - [x] Database structure **(DONE)**
+  - [x] Read Symfony issue list from github **(DONE)**
+  - [x] Import Issues and Comments to mysql **(DONE)**
 - Front End Angular (`tn-app`) 
-  - [x]Login  **(DONE)**
-  - [x]Issues **(DONE)**
-  - [x]Issue **(DONE)**
-  - [x]Comments **(DONE)**
-  - [ ]Connect with Github *(In progress)*
-  - [ ]JWT Login *(In progress)*
+  - [x] Login  **(DONE)**
+  - [x] Issues **(DONE)**
+  - [x] Issue **(DONE)**
+  - [x] Comments **(DONE)**
+  - [ ] Connect with Github *(In progress)*
+  - [ ] JWT Login *(In progress)*
 - Web Services
   - Node.js (`express`)
     - [x] JWT Auth **(DONE)**
