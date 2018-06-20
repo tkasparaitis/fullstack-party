@@ -1,0 +1,137 @@
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+.issues {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 50em;
+}
+.issues li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  border-radius: 4px;
+}
+
+.issues .text {
+  position: relative;
+  top: -3px;
+}
+
+.block-right {
+  background-color: #0b1c31;
+  background-image: url("../../assets/images/issues-bg.png");
+  background-size: cover;
+}
+
+.block-left {
+  background-color: #F5F5F5;
+  padding: 10px;
+}
+
+.block-left .issues {
+  width: 100%;
+}
+
+.fa-exclamation-circle {
+  color: #9fd533;
+  margin-right: 10px;
+}
+
+span.page {
+  display: inline-block;
+  margin: -50px 5px 0 5px;
+  background-color: #ffffff;
+  width:40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+}
+
+span.page a { text-decoration: none; color: #333333; }
+span.pagep, span.pagen { margin: 5px;}
+/*.issues { padding-top: 100px;}*/
+div .info {
+  line-height: 50px;
+}
+
+div .info span {
+  margin: 10px;
+  font-size: 16px;
+}
+
+div .info span i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+div .info span.active, div .info span.active i.fas { color: #000000 !important; }
+div .info span { color: #696e6e; }
+div .info span i.fas { color: #696e6e !important; }
+div .info span:hover i.fas { color: #99cc33 !important; }
+div .info span:hover { color: #99cc33 !important; }
+
+.issues li {
+  border:1px solid #eeeeee;
+  padding-left: 30px;
+  text-align: left;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.issues li p {
+  margin-left: 25px;
+  color: #bfbfbf;
+}
+.issues li p a {
+  color: #85b32b;
+  text-decoration: none;
+}
+.issues li p a:hover {
+  text-decoration: underline;
+}
+.issues li h3 { color: #333333; }
+.issues li h3:hover { text-decoration: underline; }
+
+.comm { margin-right: 30px; color: #999999; float: right; }
+.comm i { margin: 5px;}
+/* phone */
+@media only screen and (max-width: 600px) {
+  .block-right {
+    display: none;
+  }
+
+  .block-left .issues {
+    width: 100%;
+  }
+}
+/* PC */
+@media only screen and (min-width: 1200px) {
+
+  .all-block {
+    width: 100%;
+    display: table;
+    height: calc(100% - 114px);
+  }
+
+  .block-left .issues {
+    overflow: auto;
+    height: calc(100% - 114px); }
+
+  .row-block {
+    width: 100%;
+    display: table-row;
+  }
+
+
+  .block-left, .block-right {
+    display: table-cell;
+    width: 50%;
+  }
+
+}

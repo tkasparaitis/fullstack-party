@@ -1,0 +1,14 @@
+<app-issue-header></app-issue-header>
+<div class="container">
+<div class="back"><a href="javascript:history.back()"><i class="fas fa-undo"></i> Back to Issues</a></div>
+<div *ngIf="issue">
+  <div class="issue">
+    <h2>{{ issue.title }} <span>#{{issue.id}}</span></h2>
+    <p>
+    <span *ngIf="issue.status" class="statusopen"><i class="fas fa-exclamation-circle"></i> OPEN</span>
+      <a target="_blank" href="http://github.com/{{ issue.author }}">{{ issue.author }}</a> opened this issue {{issue.timestamp}}
+    </p>
+  </div>
+  </div>
+  <app-comments></app-comments>
+</div>

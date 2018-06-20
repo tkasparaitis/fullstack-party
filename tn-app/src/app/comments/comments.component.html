@@ -1,0 +1,10 @@
+<ul class="comments">
+  <li *ngFor="let comment of comments">
+    <img src="{{comment.avatr}}"/>
+    <div class="cominfo">
+       <div class="arrow"></div>
+      <div class="comhead">{{ comment.author }} commented {{ comment.timestamp }}</div>
+      <div class="text" [innerHTML]="comment.text | trustHtml"></div>
+    </div>
+  </li>
+</ul>

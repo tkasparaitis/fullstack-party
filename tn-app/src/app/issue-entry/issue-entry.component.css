@@ -1,0 +1,46 @@
+
+.container {
+  max-width: 960px;
+  margin: 30px auto 0 auto;
+}
+
+div.back { text-align: left; }
+div.back a { text-decoration: none; color: #85b32b; }
+div.back a:hover { text-decoration: underline; }
+
+div.issue {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border:1px solid #eeeeee;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: left;
+}
+
+div.issue h2 {
+  font-weight: 100;
+  font-size: 32px;
+  color: #333333;
+}
+
+div.issue h2 span {
+  color:#999999;
+}
+
+div.issue {
+  color: #666666;
+  font-size: 14px;
+}
+
+div.issue p a {
+  color: #85b32b;
+  text-decoration: none;
+}
+
+.statusopen {
+  background-color: #9fd533;
+  color: #ffffff;
+  padding: 5px;
+  margin-right: 20px;
+}

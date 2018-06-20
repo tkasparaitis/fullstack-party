@@ -1,0 +1,33 @@
+.header {
+  height:113px;
+  line-height: 113px;
+  border-bottom:1px solid #ccc;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.header img { margin-left: 50px;}
+
+
+.header .menu {
+  float:right;
+  margin-right: 50px;
+  display: block;
+}
+
+.header .menu > ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.header .menu > ul i { margin-right: 10px;}
+
+.header .menu > ul a {
+  color: #202F47;
+  text-decoration: none;
+}
+
+.header .menu > ul a:hover {
+  color: #99cc33;
+}

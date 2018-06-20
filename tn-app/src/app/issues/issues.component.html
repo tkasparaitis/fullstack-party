@@ -1,0 +1,29 @@
+<app-issue-header></app-issue-header>
+<div class="all-block">
+  <div class="row-block">
+<div class="block-left">
+  <div *ngIf="info" class="info">
+    <span class="active"><i class="fas fa-exclamation-circle"></i>{{ info[0].open }} Open</span>
+    <span><i class="far fa-check-circle"></i>{{ info[0].total }} Closed</span>
+  </div>
+<ul class="issues">
+  <li *ngFor="let issue of issues" (click)="onSelect(issue)">
+    <h3><i class="fas fa-exclamation-circle"></i>{{ issue.title }}{{ issue.labels }}<span class="comm"><i class="far fa-comment-alt"></i></span></h3>
+    <p>#{{ issue.id }} {{ issue.timestamp }} by <a target="_blank" href="http://github.com/{{ issue.author }}">{{ issue.author }}</a></p>
+  </li>
+</ul>
+  <div *ngIf="info" class="pages" ng-init="maxpage = info[0].open/25">
+    <!-- span class="pagep"><a>Previous</a></span -->
+    <span *ngFor="let page of paginator" class="page">
+
+      <a *ngIf="page !== '...'" href="/issues/{{page}}">{{page}}</a>
+      <span *ngIf="page === '...'">{{page}}</span>
+      <!-- label *ngIf="j !== 0" style="color:#000000;font-size:12px;padding-top:5px">{{val}}</label -->
+    </span>
+    <!-- span class="pagen"><a>Next</a></span -->
+  </div>
+</div>
+<div class="block-right">
+</div>
+  </div>
+</div>
