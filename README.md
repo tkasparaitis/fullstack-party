@@ -15,7 +15,7 @@
     - [x] Login **(DONE)**
     - [x] Get Issues **(DONE)**
     - [x] Get Comments **(DONE)**
-    - [ ] Secure all methods withJWT *(In progress)*
+    - [x] Secure all methods withJWT **(DONE)**
   - Java (`Spring`)
     - [x] JWT Auth **(DONE)** 
     - [x] Login **(DONE)**
@@ -24,8 +24,8 @@
   - Python (`Flask`)
     - [x] JWT Auth **(DONE)** 
     - [x] Login **(DONE)**
-    - [ ] Get Issues *(In progress)*
-    - [ ] Get Comments *(In progress)*
+    - [x] Get Issues **(DONE)**
+    - [x] Get Comments **(DONE)**
   - PHP (`Symfony`) *(In progress)*
     - [ ] JWT Auth *(In progress)* 
     - [ ] Login *(In progress)*
