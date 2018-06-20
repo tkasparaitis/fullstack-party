@@ -1,9 +1,5 @@
 ## Project parts
 
-- Data importer (`gitIssueParser`)
-  - [x] Database structure **(DONE)**
-  - [x] Read Symfony issue list from github **(DONE)**
-  - [x] Import Issues and Comments to mysql **(DONE)**
 - Front End Angular (`tn-app`) 
   - [x] Login  **(DONE)**
   - [x] Issues **(DONE)**
