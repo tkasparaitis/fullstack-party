@@ -29,7 +29,7 @@
   - [x] Issue **(DONE)**
   - [x] Comments **(DONE)**
   - [ ] Connect with Github *(In progress)*
-  - [ ] JWT Login *(In progress)*
+  - [x] JWT Login **(DONE)**
   - [x] Moment.js **(DONE)**
   - [x] Custom Scrollbar **(DONE)**
 - Web Services
