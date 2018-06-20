@@ -30,12 +30,15 @@
   - [x] Comments **(DONE)**
   - [ ] Connect with Github *(In progress)*
   - [ ] JWT Login *(In progress)*
+  - [x] Moment.js **(DONE)**
+  - [x] Custom Scrollbar **(DONE)**
 - Web Services
   - Node.js (`express`)
     - [x] JWT Auth **(DONE)**
     - [x] Login **(DONE)**
     - [x] Get Issues **(DONE)**
     - [x] Get Comments **(DONE)**
+    - [ ] Secure all methods withJWT *(In progress)*
   - Java (`Spring`)
     - [x] JWT Auth **(DONE)** 
     - [x] Login **(DONE)**
