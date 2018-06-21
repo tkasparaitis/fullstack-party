@@ -1,0 +1,12 @@
+Test Step,min,max,avg,last,cnt,tps,bytes,bps,err,rat
+Issues (python),6,29,8.47,6,301,5,1736168,28877,0,0
+Issues (nodejs),1,191,27.05,4,301,5,41839,695,0,0
+Login (nodejs),103,315,117.38,113,301,5,45752,760,0,0
+Login 1 (python),72,91,76.29,75,301,5,101738,1692,0,0
+TestCase:,182,626,229.21,198,301,5,1925497,32026,0,0
+,,,,,,,,,,
+,,,,,,,,,,
+Start time:,,,,,,,,,,
+Java - Started Application in 14.245 seconds (JVM running for 14.963),,,,,,,,,,
+Python - 1.939s,,,,,,,,,,
+Node.js - 0.688s,,,,,,,,,,
