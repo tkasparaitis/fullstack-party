@@ -32,5 +32,5 @@
     - [ ] Get Issues *(In progress)*
     - [ ] Get Comments *(In progress)*
 - Performance tests
-  - [ ] Auth *(In progress)*
-  - [ ] Get Issues *(In progress)*
+  - [x] Auth **(DONE)**
+  - [x] Get Issues **(DONE)**
