@@ -24,6 +24,6 @@ exports.getById = function(values, done) {
 exports.getInfo = function(done){
     db.get().query('SELECT count(id) total, sum(if(status =1,1,0)) open FROM issues', function (err, rows) {
         if (err) return done(err)
-        done(null, rows)
+        done(null, rows[0])
     })
 }
