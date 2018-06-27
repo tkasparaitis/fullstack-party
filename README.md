@@ -5,7 +5,6 @@
   - [x] Issues **(DONE)**
   - [x] Issue **(DONE)**
   - [x] Comments **(DONE)**
-  - [ ] Connect with Github *(In progress)*
   - [x] JWT Login **(DONE)**
   - [x] Moment.js **(DONE)**
   - [x] Custom Scrollbar **(DONE)**
@@ -19,18 +18,18 @@
   - Java (`Spring`)
     - [x] JWT Auth **(DONE)** 
     - [x] Login **(DONE)**
-    - [ ] Get Issues *(In progress)*
-    - [ ] Get Comments *(In progress)*
+    - [x] Get Issues **(DONE)**
+    - [x] Get Comments **(DONE)**
   - Python (`Flask`)
     - [x] JWT Auth **(DONE)** 
     - [x] Login **(DONE)**
     - [x] Get Issues **(DONE)**
     - [x] Get Comments **(DONE)**
-  - PHP (`Symfony`) *(In progress)*
-    - [ ] JWT Auth *(In progress)* 
-    - [ ] Login *(In progress)*
-    - [ ] Get Issues *(In progress)*
-    - [ ] Get Comments *(In progress)*
+  - PHP (`Symfony`) **(DONE)**
+    - [x] JWT Auth **(DONE)**
+    - [x] Login **(DONE)**
+    - [x] Get Issues **(DONE)**
+    - [x] Get Comments **(DONE)**
 - Performance tests
   - [x] Auth **(DONE)**
   - [x] Get Issues **(DONE)**
