@@ -19,9 +19,9 @@ const httpOptions = {
 
 export class IssueService {
 
-  private issuesUrl = 'http://localhost:3000/issue/';  // URL to web api
+  private issuesUrl = 'http://localhost:5000/issue/';  // URL to web api
   private issueUrl = this.issuesUrl + 'entry';
-  private infoUrl = 'http://localhost:3000/issue/db/info';
+  private infoUrl = 'http://localhost:5000/issue/db/info';
 
   constructor(
     private http: HttpClient,

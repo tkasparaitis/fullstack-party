@@ -19,18 +19,24 @@ const httpOptions = {
 
 export class LoginService {
 
-  private loginUrl = 'http://localhost:3000/api/auth/login';  // URL to web api
+  private loginUrl = 'http://localhost:5000/api/auth/login';  // URL to web api
 
   constructor(
     private http: HttpClient,
+    // private headers: Headers,
     private router: Router,
     private messageService: MessageService,
     private authService: AuthService) { }
 
   loginUser(email: string, password: string): Observable<Token> {
-    const token = this.http.post<Token>(this.loginUrl, {email: email, password: password}).pipe(
+
+    // this.headers.append('Content-Type', 'application/json');
+
+    const token = this.http.post<Token>(this.loginUrl, {email: email, password: password}, {
+      headers: {'Content-Type': 'application/json'}
+    }).pipe(
       map(response => {
-        if(response.auth){
+        if (response.auth) {
           localStorage.setItem('token', response.token);
 
           if(this.authService.login()) {

@@ -17,7 +17,7 @@ const httpOptions = {
 
 export class CommentService {
 
-  private commentsUrl = 'http://localhost:3000/comment';  // URL to web api
+  private commentsUrl = 'http://localhost:5000/comment';  // URL to web api
 
   constructor(
     private http: HttpClient,

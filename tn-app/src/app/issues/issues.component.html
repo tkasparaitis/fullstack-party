@@ -12,7 +12,7 @@
     <p>#{{ issue.id }} {{ issue.timestamp }} by <a target="_blank" href="http://github.com/{{ issue.author }}">{{ issue.author }}</a></p>
   </li>
 </ul>
-  <div *ngIf="info" class="pages" ng-init="maxpage = info[0].open/25">
+  <div *ngIf="info" class="pages" ng-init="maxpage = info.open/25">
     <!-- span class="pagep"><a>Previous</a></span -->
     <span *ngFor="let page of paginator" class="page">
 
