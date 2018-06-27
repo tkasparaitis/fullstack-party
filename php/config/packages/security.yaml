@@ -1,0 +1,28 @@
+security:
+    encoders:
+        App\Entity\User:
+            algorithm: bcrypt
+
+    providers:
+        entity_provider:
+            entity:
+                class: App\Entity\User
+                property: email
+
+
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+            methods: {  }
+            user_checker: security.user_checker
+            stateless: false
+            logout_on_user_change: true
+        main:
+            anonymous:
+                secret: null
+            methods: {  }
+            security: true
+            user_checker: security.user_checker
+            stateless: false
+            logout_on_user_change: true
